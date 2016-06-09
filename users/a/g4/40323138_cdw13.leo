@@ -26,7 +26,7 @@
 </v>
 </v>
 </v>
-<v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
+<v t="amd.20160501215545.1"><vh>wsgi 程式部份</vh>
 <v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
@@ -49,7 +49,7 @@
 </v>
 </v>
 </v>
-<v t="123.20160609153928.1"><vh>@auto a40323138.py</vh></v>
+<v t="123.20160609153928.1" a="E"><vh>@auto a40323138.py</vh></v>
 <v t="123.20160502103535.2"><vh>Recovered Nodes</vh>
 <v t="123.20160502103535.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
 <v t="123.20160502103535.4"><vh>old:myflaskapp declarations</vh></v>
@@ -903,10 +903,10 @@ app.register_blueprint(users.a.g4.ag4_40323138_task2bacd.ag4_40323138bacd)
 app.register_blueprint(users.a.g4.ag4_40323138_task3abcd.ag4_40323138task3)
 app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
 app.register_blueprint(users.a.g4.a40323138.a40323138)
-
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
 app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
+
 #bg2
 app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
 app.register_blueprint(users.b.g2.bg2_40123202.bg2_40123202)
