@@ -1,6 +1,6 @@
 from flask import Blueprint, request
  
-a40323138 = Blueprint('a40323138', __name__, url_prefix='/a40323138', template_folder='templates')
+a403231381 = Blueprint('a403231381', __name__, url_prefix='/a403231381', template_folder='templates')
  
 head_str = '''
 <!DOCTYPE html>
@@ -378,50 +378,50 @@ r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
     outstring += "mychain.basic(x22, y22, r11, s11)\n"
  
     return outstring
-@a40323138.route('/a')
+@a403231381.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
  
  
-@a40323138.route('/b')
+@a403231381.route('/b')
 def draw_b():
    # 每個橫向字元距離為 65 pixels, 上下字距則為 110 pixels
     return head_str + chain_str + b(0+65, 0) + tail_str
  
  
-@a40323138.route('/c')
+@a403231381.route('/c')
 def draw_c():
     # 每個橫向字元距離為 65 pixels
     return head_str + chain_str + c(0+65*2, 0) + tail_str
  
  
-@a40323138.route('/d')
+@a403231381.route('/d')
 def draw_d():
     return head_str + chain_str + d(0+65*3, 0) + tail_str
  
  
-@a40323138.route('/ab')
+@a403231381.route('/ab')
 def draw_ab():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + tail_str
     return head_str + chain_str + a(0, 0) + b(0, 0-110) + tail_str
  
  
-@a40323138.route('/ac')
+@a403231381.route('/ac')
 def draw_ac():
     return head_str + chain_str + a(0, 0) + c(0+65, 0) + tail_str
  
  
-@a40323138.route('/bc')
+@a403231381.route('/bc')
 def draw_bc():
     return head_str + chain_str + b(0, 0) + c(0+65, 0) + tail_str
  
  
-@a40323138.route('/abc')
+@a403231381.route('/abc')
 def draw_abc():
     return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + tail_str
  
  
-@a40323138.route('/aaaa')
+@a403231381.route('/aaaa')
 def draw_aaaa():
     outstring = head_str + chain_str
     scale = 2
@@ -432,130 +432,51 @@ def draw_aaaa():
     #return head_str + chain_str + a(0, 0, scale=1) + a(0+65, 0, scale=0.8, color="red") + a(0+65*2, 0, scale=0.6) + a(0+65*3, 0, scale=0.4, color="red") + tail_str
  
  
-def eighteenthirty(x, y):
-    '''
-從圖解法與符號式解法得到的兩條外切線座標點
-(-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, 56.5714145924675), (-17.8936874260919, 93.9794075692901)
-(-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, -56.5714145924675), (-17.8936874260919, -93.9794075692901)
-左邊關鍵鍊條起點 (-233.06, 49.48), 角度 20.78, 圓心 (-203.593, 0.0)
-右邊關鍵鍊條起點 (-17.89, 93.9), 角度 4.78, 圓心 (0, 0)
-    '''
-    # 20 為鏈條兩圓距
-    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
-    # degree = math.asin(20/2/radius)*180/math.pi
-    x = 50
-    y = 0
-    degree = 20
-    first_degree = 20.78
-    startx = -233.06+100
-    starty = 49.48
-    repeat = 360 / degree
-    # 先畫出左邊第一關鍵節
-    outstring = '''
-mychain = chain()
- 
-x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree)+''')
- 
-'''
-    # 接著繪製左邊的非虛擬鍊條
-    for i in range(2, int(repeat)+1):
-        if i >=2 and i <=11:
-            # virautl chain
-            #outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
-            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
-        else:
-            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
- 
-    # 接著處理右邊的非虛擬鍊條
-    # 先畫出右邊第一關鍵節
- 
-    p = -17.89+100
-    k = 93.98
-    degree = 12
-    first_degree = 4.78
-    repeat = 360 / degree
-    # 第1節不是 virtual chain
-    outstring += '''
-#mychain = chain()
- 
-p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
-'''
-    for i in range(2, int(repeat)+1):
-        if i >=18:
-            # virautl chain
-            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
-            #outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
-        else:
-            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
- 
-    # 上段連接直線
-    # 從 x1, y1 作為起點
-    first_degree = 10.78
-    repeat = 10
-    outstring += '''
-m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
-'''
-    for i in range(2, int(repeat)+1):
-        outstring += "m"+str(i)+", n"+str(i)+"=mychain.basic_rot(m"+str(i-1)+", n"+str(i-1)+", "+str(first_degree)+")\n"
- 
-    # 下段連接直線
-    # 從 x11, y11 作為起點
-    first_degree = -10.78
-    repeat = 10
-    outstring += '''
-r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
-'''
-    for i in range(2, int(repeat)+1):
-        outstring += "r"+str(i)+", s"+str(i)+"=mychain.basic_rot(r"+str(i-1)+", s"+str(i-1)+", "+str(first_degree)+")\n"
- 
-    return outstring
- 
- 
-@a40323138.route('/badc')
+@a403231381.route('/badc')
 def draw_badc():
     return head_str + chain_str + b(0, 0) + a(0+65, 0) + d(0+65*2, 0) + c(0+65*3, 0) + tail_str
  
  
-@a40323138.route('/abcd')
+@a403231381.route('/abcd')
 def draw_abcd():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + d(0+65*3, 0) + tail_str
     return head_str + chain_str + a(0, 110) + b(0, 110-110) + c(0, 110-110*2) + d(0, 110-110*3) + tail_str
  
  
-@a40323138.route('/circle')
+@a403231381.route('/circle')
 def drawcircle():
     return head_str + chain_str + circle(0, 0) + tail_str
  
  
-@a40323138.route('/circle1/<degree>', defaults={'x': 0, 'y': 0})
-@a40323138.route('/circle1/<x>/<degree>', defaults={'y': 0})
-@a40323138.route('/circle1/<x>/<y>/<degree>')
-#@a40323138.route('/circle1/<int:x>/<int:y>/<int:degree>')
+@a403231381.route('/circle1/<degree>', defaults={'x': 0, 'y': 0})
+@a403231381.route('/circle1/<x>/<degree>', defaults={'y': 0})
+@a403231381.route('/circle1/<x>/<y>/<degree>')
+#@a403231381.route('/circle1/<int:x>/<int:y>/<int:degree>')
 def drawcircle1(x,y,degree):
     return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
  
  
-@a40323138.route('/circle2/<degree>', defaults={'x': 0, 'y': 0})
-@a40323138.route('/circle2/<x>/<degree>', defaults={'y': 0})
-@a40323138.route('/circle2/<x>/<y>/<degree>')
-#@a40323138.route('/circle2/<int:x>/<int:y>/<int:degree>')
+@a403231381.route('/circle2/<degree>', defaults={'x': 0, 'y': 0})
+@a403231381.route('/circle2/<x>/<degree>', defaults={'y': 0})
+@a403231381.route('/circle2/<x>/<y>/<degree>')
+#@a403231381.route('/circle2/<int:x>/<int:y>/<int:degree>')
 def drawcircle2(x,y,degree):
     return head_str + chain_str + circle2(int(x), int(y), int(degree)) + tail_str
  
  
-@a40323138.route('/twocircle/<x>/<y>')
-@a40323138.route('/twocircle', defaults={'x':0, 'y':0})
+@a403231381.route('/twocircle/<x>/<y>')
+@a403231381.route('/twocircle', defaults={'x':0, 'y':0})
 def drawtwocircle(x,y):
     return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
  
  
-@a40323138.route('/eighteenthirty/<x>/<y>')
-@a40323138.route('/eighteenthirty', defaults={'x':0, 'y':0})
+@a403231381.route('/eighteenthirty/<x>/<y>')
+@a403231381.route('/eighteenthirty', defaults={'x':0, 'y':0})
 def draweithteenthirdy(x,y):
     return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
  
  
-@a40323138.route('/snap')
+@a403231381.route('/snap')
 # http://svg.dabbles.info/snaptut-base
 def snap():
     outstring = '''
@@ -634,7 +555,7 @@ document['tux'].bind('mouseleave', hoverout)
     return outstring
  
  
-@a40323138.route('/snap_link')
+@a403231381.route('/snap_link')
 # http://svg.dabbles.info/
 def snap_link():
     outstring = '''
@@ -716,7 +637,7 @@ g4.animate( { 'transform' : 'r360,25,25' },4000)
     return outstring
  
  
-@a40323138.route('/snap_gear')
+@a403231381.route('/snap_gear')
 def snap_gear():
     outstring = '''
 <!DOCTYPE html>
@@ -755,7 +676,7 @@ s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth'
 </html>
 '''
     return outstring
-@a40323138.route('/gear')
+@a403231381.route('/gear')
 def gear():
     outstring = '''
 <!DOCTYPE html>
@@ -873,8 +794,8 @@ cgo.render(Line)
 </html>
 '''
     return outstring
-@a40323138.route('/threegears', defaults={'n1':17,'n2':29,'n3':15})
-@a40323138.route('/threegears/<n1>/<n2>/<n3>')
+@a403231381.route('/threegears', defaults={'n1':17,'n2':29,'n3':15})
+@a403231381.route('/threegears/<n1>/<n2>/<n3>')
 def draw_threegears(n1, n2, n3):
     outstring='''
 <!DOCTYPE html>
@@ -1016,7 +937,7 @@ spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
 spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
 </script>'''
     return outstring
-def eighteenthirty1(x, y):
+def eighteenthirty(x, y):
     '''
 從圖解法與符號式解法得到的兩條外切線座標點
 (-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, 56.5714145924675), (-17.8936874260919, 93.9794075692901)
@@ -1096,9 +1017,9 @@ r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
     return outstring
  
  
-@a40323138.route('/gears', defaults={'n1':17,'n2':29,'n3':15,'n4':40,'n5':20})
-@a40323138.route('/gears/<n1>/<n2>/<n3>/<n4>/<n5>')
-def gears(n1, n2, n3, n4, n5):
+@a403231381.route('/gears', defaults={'n1':17,'n2':29,'n3':15,'n4':20})
+@a403231381.route('/gears/<n1>/<n2>/<n3>/<n4>')
+def gears(n1, n2, n3, n4):
     outstring = '''
 <!DOCTYPE html>
 <html>
@@ -1203,24 +1124,22 @@ def spur(cx, cy, m, n, pa, theta):
     cgo.render(Line)
  
 # 3個齒輪的齒數
-n1 = 15
-n2 = 17
-n3 = 20
-n4 = 29
-n5 = 40
+n1 = 17
+n2 = 29
+n3 = 15
+n4 = 20
  
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
 # Module = mm of pitch diameter per tooth
 # 利用 80% 的畫布寬度進行繪圖
 # 計算模數的對應尺寸
-m = canvas.width*0.8/(n1+n2+n3+n4+n5)
+m = canvas.width*0.8/(n1+n2+n3)
  
 # 根據齒數與模組計算各齒輪的節圓半徑
 pr1 = n1*m/2
 pr2 = n2*m/2
 pr3 = n3*m/2
 pr4 = n4*m/2
-pr5 = n5*m/2
  
 # 畫布左右兩側都保留畫布寬度的 10%
 # 依此計算對應的最左邊齒輪的軸心座標
@@ -1241,7 +1160,6 @@ spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
 # 但是第2齒為了與第一齒囓合時, 已經從原始定位線轉了 180-180/n2 度
 # 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
 spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
-spur(cx+pr1+pr2+pr2+2*pr3+pr4,cy,m,n4,pa,180-180/n4+(180-180/n3)*n3/n4)
-spur(cx+pr1+pr2+pr2+2*pr3+2*pr4+pr5,cy,m,n5,pa,(180+180/n5+(180-180/n3)*n4/n5)-3)
+spur(cx+prl+pr2+pr2+2*pr3+pr4, cy, m, n4, pa, 180-180/n4+(180-180/n3)*m3/n4)
 </script>'''
     return outstring
