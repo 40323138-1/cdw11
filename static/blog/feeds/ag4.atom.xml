@@ -1,190 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/ag4.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-25T15:42:31+08:00</updated><entry><title>40323144 cdw17 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323144-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-25T15:42:31+08:00</updated><author><name>40323144</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-25:static/blog/40323144-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
-
-
-&lt;p&gt;任務說明:&lt;/p&gt;
-&lt;p&gt;一.2D圖:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://g4cdw18-40323138.rhcloud.com/ag4_1/gears44"&gt;http://g4cdw18-40323138.rhcloud.com/ag4_1/gears44&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/q2ZZvln.png="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;二.2D鏈條組立&lt;/p&gt;
-&lt;p&gt;橫式
-&lt;a href="http://cdw17-40323138.rhcloud.com/a40323138/eighteenthirty"&gt;http://cdw17-40323138.rhcloud.com/a40323138/eighteenthirty&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/aQTLA7u.png" width="100%" /&gt;
-直式&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://cdw17-40323138.rhcloud.com/a403231381/eighteenthirty"&gt;http://cdw17-40323138.rhcloud.com/a403231381/eighteenthirty&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/J3OS1O0.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;三.3D圖opshape:&lt;/p&gt;
-&lt;p&gt;2個&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/SCG9DLQ.png="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/e4dfafb620a34b2168d7e04a/w/705a2d08c87968211f18fe66/e/0d7521324fc135435e653ab4"&gt;https://cad.onshape.com/documents/e4dfafb620a34b2168d7e04a/w/705a2d08c87968211f18fe66/e/0d7521324fc135435e653ab4&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;4個&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/QKG3ifj.png="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/eb2e3f7f9af6e1f59b71a68a/w/1458124db8928e723b00e1ad/e/e5be6865566904ae3a5f07d6"&gt;https://cad.onshape.com/documents/eb2e3f7f9af6e1f59b71a68a/w/1458124db8928e723b00e1ad/e/e5be6865566904ae3a5f07d6&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;操作步驟:&lt;/p&gt;
-&lt;p&gt;1.先在Github建立一個期末專案的倉儲。&lt;/p&gt;
-&lt;p&gt;2.建立完後再clone下來，改README.md。&lt;/p&gt;
-&lt;p&gt;3.將個人的學號與對應的GithubPage網頁放入README.md檔案中，再自行用Github帳號登入。&lt;/p&gt;
-&lt;p&gt;4.取得各組倉儲協同權限後再進行RADEME.md然後各組員自行推送。&lt;/p&gt;
-&lt;p&gt;5.各組員在倉儲中過自建立一個能夠呈現自我期末報告的網誌，並將倉儲的gh-pages分支中的建立。&lt;/p&gt;
-&lt;p&gt;6.組員各自建立一個簡單幾何零件圖形，將倉儲資料中的wsgi程式，送到各組代表成員的OpenShift網站中呈現。&lt;/p&gt;
-&lt;p&gt;7.ru; Onshape雲端電腦輔助設計軟體中，建立一個公開的協同Document,然後將各組員納入作為可以edit與view的協同者。&lt;/p&gt;
-&lt;p&gt;8.完成以後，將各組的正齒輪組建立以share功能，設定成網路公開組立件，並將此Onshape的阻力件連結，放入倉庫master。&lt;/p&gt;
-&lt;p&gt;心得:在學期過程中，學到了很多程式的繪畫技巧，在這個資訊時代的來臨，有關於"協同"是一個大家都要會的技能，老師提供給我們的Onshape繪圖軟體非常的好用，以前的SolidWorks 沒辦法做到協同這一點，所以每次如果有小組作業之類的，檔案都要儲存然後在傳來傳去有點麻煩，我覺得協同將會是以後大家都會的東西，學期快結束了，獲益良多。&lt;/p&gt;
-&lt;p&gt;自評:70&lt;/p&gt;</summary><category term="40323144"></category><category term="cdw17"></category></entry><entry><title>40323136 cdw17 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323136-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-25T15:42:31+08:00</updated><author><name>40323136</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-25:static/blog/40323136-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
-
-
-&lt;p&gt;任務說明:&lt;/p&gt;
-&lt;p&gt;一.2D齒輪&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://g4cdw18-40323138.rhcloud.com/ag4_1/gears36"&gt;http://g4cdw18-40323138.rhcloud.com/ag4_1/gears36&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/b6jh8kN.png="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;二.2D鏈條組立&lt;/p&gt;
-&lt;p&gt;橫式
-&lt;a href="http://cdw17-40323138.rhcloud.com/a40323138/eighteenthirty"&gt;http://cdw17-40323138.rhcloud.com/a40323138/eighteenthirty&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/aQTLA7u.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;直式&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://cdw17-40323138.rhcloud.com/a403231381/eighteenthirty"&gt;http://cdw17-40323138.rhcloud.com/a403231381/eighteenthirty&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;三.3D圖opshape:&lt;/p&gt;
-&lt;p&gt;2個&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/4tsU62A.png="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/fdcfec19ec926b1d4b965aee/w/194705714ff6c6488b5422c4/e/cea4afbc088af5c465d386f5"&gt;https://cad.onshape.com/documents/fdcfec19ec926b1d4b965aee/w/194705714ff6c6488b5422c4/e/cea4afbc088af5c465d386f5&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;4個&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/1wReJs0.png="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/fdcfec19ec926b1d4b965aee/w/194705714ff6c6488b5422c4/e/0b57e432be8eaa12d3111fcb&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;直式&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://cdw17-40323138.rhcloud.com/a403231381/eighteenthirty"&gt;http://cdw17-40323138.rhcloud.com/a403231381/eighteenthirty&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/J3OS1O0.png" width="100%" /&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;登入onshape&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;建立新專案&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;spur.gear 產生齒輪指令&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;4.點擊工具列的SG圖示&lt;/p&gt;
-&lt;p&gt;5.設定齒輪齒數及模數，畫出20,15,30,35等齒數之齒輪，設定中心孔5mm&lt;/p&gt;
-&lt;p&gt;6.畫出底座，設定各柱D=5mm各自間距為相鄰齒輪之節圓徑相加除以2&lt;/p&gt;
-&lt;p&gt;7.insert各零件，並組立起來&lt;/p&gt;
-&lt;p&gt;8.若齒輪產生衝突，則在零件介面設定角度&lt;/p&gt;
-&lt;p&gt;9.設定相鄰齒輪間轉數，轉數為  (X1/X2)&lt;/p&gt;
-&lt;p&gt;心得:使用onshape十分方便，齒輪的程式都有人寫好了
-     只需要設定各項參數，就可以自動跑出齒輪來，
-     要畫出零件十分快速，但在PYTHON程式的地方卡了
-     很久，一直都不會用，只好去請教同學，幸好同學
-     有人會，很慶幸有人願意教我。&lt;/p&gt;</summary><category term="40323136"></category><category term="cdw17"></category></entry><entry><title>40323135 cdw17 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323135-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-25T15:42:31+08:00</updated><author><name>40323135</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-25:static/blog/40323135-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
-
-
-&lt;p&gt;任務說明:&lt;/p&gt;
-&lt;p&gt;一.2D齒輪&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://g4cdw18-40323138.rhcloud.com/ag4_1/gears35"&gt;http://g4cdw18-40323138.rhcloud.com/ag4_1/gears35&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/8tuc2LU.png="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;二.2D鏈條組立&lt;/p&gt;
-&lt;p&gt;橫式&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://cdw17-40323138.rhcloud.com/a40323138/eighteenthirty"&gt;http://cdw17-40323138.rhcloud.com/a40323138/eighteenthirty&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/aQTLA7u.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;直式&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://cdw17-40323138.rhcloud.com/a403231381/eighteenthirty"&gt;http://cdw17-40323138.rhcloud.com/a403231381/eighteenthirty&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;三.3D圖opshape:&lt;/p&gt;
-&lt;p&gt;同齒繪圖步驟及心得 &lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/u5lZgqi.png="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/c68c5f0bfd3e9ca18b53ee84/w/9b2f4941548d778208efff66/e/19933cbe837f376946f8f6f2"&gt;https://cad.onshape.com/documents/c68c5f0bfd3e9ca18b53ee84/w/9b2f4941548d778208efff66/e/19933cbe837f376946f8f6f2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;1.先將底座畫出，在畫出軸心的距離&lt;/p&gt;
-&lt;p&gt;(軸心的距離=兩齒輪節圓差尺寸)&lt;/p&gt;
-&lt;p&gt;2.用add custom features去收尋spur來畫齒輪&lt;/p&gt;
-&lt;p&gt;3.將齒輪組裝，先用insert叫出剛才所畫的底座及齒輪&lt;/p&gt;
-&lt;p&gt;4.先固定底座然後按revolute mate來接合底座及齒輪&lt;/p&gt;
-&lt;p&gt;5.按gear relation來限制齒輪轉動及齒數比&lt;/p&gt;
-&lt;p&gt;心得:覺得用onshape畫東西比用solidworks畫東西來的方便，
-     因為以小組來說的畫可以一次很多人一起畫東西，
-     再來是可以直接在線上組裝，有錯誤的話隊員就可以直接
-     更改，這樣真的很方便&lt;/p&gt;
-&lt;p&gt;不同齒繪圖步驟及心得 &lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/OosxVyB.png="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/f0aba2aed557d51c451158fb/w/da2f3fba80693a0f8530a405/e/d03c61c47f81a93b83976f85"&gt;hhttps://cad.onshape.com/documents/f0aba2aed557d51c451158fb/w/da2f3fba80693a0f8530a405/e/d03c61c47f81a93b83976f85&lt;/a&gt;
-步驟說明&lt;/p&gt;
-&lt;p&gt;1.先將底座畫出，在畫出軸心的距離&lt;/p&gt;
-&lt;p&gt;(軸心的距離=兩齒輪節圓差尺寸)&lt;/p&gt;
-&lt;p&gt;2.用add custom features去收尋spur來畫齒輪&lt;/p&gt;
-&lt;p&gt;3.畫齒輪時模數要相同否則組裝的時候會無法鎳合&lt;/p&gt;
-&lt;p&gt;4.將齒輪組裝，先用insert叫出剛才所畫的底座及齒輪&lt;/p&gt;
-&lt;p&gt;5.先固定底座然後按revolute mate來接合底座及齒輪&lt;/p&gt;
-&lt;p&gt;6.按gear relation來限制齒輪轉動及齒數比&lt;/p&gt;
-&lt;p&gt;7.回到齒輪的草圖設定齒輪轉的角度否則組裝時會無法鎳合&lt;/p&gt;
-&lt;p&gt;8.要一個一個設定齒輪轉的角度否則會無法鎳合&lt;/p&gt;
-&lt;p&gt;心得:不同齒與同齒的差異是鎳合那邊，同齒輪組裝不需要
-     考慮鎳合的問題，但是不同齒要去更改齒輪轉的角度，
-     有點麻煩&lt;/p&gt;
-&lt;p&gt;自評 :70&lt;/p&gt;</summary><category term="40323135"></category><category term="cdw17"></category></entry><entry><title>40323109 cdw17 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323109-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-25T15:40:52+08:00</updated><author><name>40323109</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-25:static/blog/40323109-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
-
-
-&lt;p&gt;任務說明:&lt;/p&gt;
-&lt;p&gt;一2D齒輪&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://g4cdw18-40323138.rhcloud.com/ag4_1/gears09"&gt;http://g4cdw18-40323138.rhcloud.com/ag4_1/gears09&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/NrTSCbo.png="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;二.2D鏈條組立&lt;/p&gt;
-&lt;p&gt;橫式
-&lt;a href="http://cdw17-40323138.rhcloud.com/a40323138/eighteenthirty"&gt;http://cdw17-40323138.rhcloud.com/a40323138/eighteenthirty&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/aQTLA7u.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;直式&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://cdw17-40323138.rhcloud.com/a403231381/eighteenthirty"&gt;http://cdw17-40323138.rhcloud.com/a403231381/eighteenthirty&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;三.3D圖opshape:&lt;/p&gt;
-&lt;p&gt;2個&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/u5lZgqi.png="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/c68c5f0bfd3e9ca18b53ee84/w/9b2f4941548d778208efff66/e/19933cbe837f376946f8f6f2"&gt;https://cad.onshape.com/documents/c68c5f0bfd3e9ca18b53ee84/w/9b2f4941548d778208efff66/e/19933cbe837f376946f8f6f2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;4個&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/t3pwYA6="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/f0aba2aed557d51c451158fb/w/da2f3fba80693a0f8530a405/e/d03c61c47f81a93b83976f85"&gt;https://cad.onshape.com/documents/f0aba2aed557d51c451158fb/w/da2f3fba80693a0f8530a405/e/d03c61c47f81a93b83976f85&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;步驟說明&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;在onshape建立新專案&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;點選工具列中+來新增spur.gear功能&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;3.使用spur.gear&lt;/p&gt;
-&lt;p&gt;4.設定齒輪齒數及模數，畫出30、10等齒數之齒輪，設定中心孔10和5mm&lt;/p&gt;
-&lt;p&gt;5.畫出連桿，連桿各軸分別為直徑10、5mm，相距兩節圓直徑相加除2&lt;/p&gt;
-&lt;p&gt;6.組裝所有零件&lt;/p&gt;
-&lt;p&gt;7.設定相鄰齒輪速比&lt;/p&gt;
-&lt;p&gt;8.齒輪若衝突，則編輯組立調整角度
-心得:Onshape的出現，大大改變我對繪圖軟體的認知，因為他有著強大的協同設計功能，使隊員們能同時在網路上進行繪製，避免了傳送檔案時所發生的錯誤，再來是這學期介紹的畫齒輪功能，能夠輕鬆的一個又一個將齒輪畫出，並組立成機構，當他轉動時，又讓我再次對這軟體瞠目結舌。&lt;/p&gt;
-&lt;p&gt;自評:70&lt;/p&gt;</summary><category term="40323109"></category><category term="cdw17"></category></entry><entry><title>40323138 cdw17 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323138-cdw17-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-25T15:36:20+08:00</updated><author><name>40323138</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-25:static/blog/40323138-cdw17-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/ag4.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-19T15:42:11+08:00</updated><entry><title>40323138 cdw17 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323138-cdw17-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-19T15:42:11+08:00</updated><author><name>40323138</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-19:static/blog/40323138-cdw17-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
 
 
 &lt;p&gt;任務說明:
-一.2D齒輪囓合
-二.2D鏈條組立
+一.2D鏈條組立
+二.2D齒輪囓合
 三.Onshape的3D齒輪囓合&lt;/p&gt;
-&lt;p&gt;一.2D齒輪&lt;/p&gt;
-&lt;p&gt;2D圖:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://g4cdw18-40323138.rhcloud.com/a40323138/cdw18gears"&gt;http://g4cdw18-40323138.rhcloud.com/a40323138/cdw18gears&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/aClPC24.png="100%" /&gt;
-程式說明: 懂了程式嚙和原理後要畫幾個都不是問題&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/DAxXWfU.png" width="100%" /&gt;
-spur(cx, cy, m, n1, pa, 0)   x,y,模數,齒輪,壓力角,偏轉轉角 &lt;/p&gt;
-&lt;p&gt;二.2D鏈條組立&lt;/p&gt;
-&lt;p&gt;橫式
-&lt;a href="http://cdw17-40323138.rhcloud.com/a40323138/eighteenthirty"&gt;http://cdw17-40323138.rhcloud.com/a40323138/eighteenthirty&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/aQTLA7u.png" width="100%" /&gt;
-直式&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://cdw17-40323138.rhcloud.com/a403231381/eighteenthirty"&gt;http://cdw17-40323138.rhcloud.com/a403231381/eighteenthirty&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/J3OS1O0.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;程式說明:橫式和直式只差了90度只要更改角度再去買x,y座標就好了&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/tHWQzsl.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;一.2D鏈條組立
+http://cdw17-40323138.rhcloud.com/a40323138/eighteenthirty&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://imgur.com/aQTLA7u.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;http://cdw17-40323138.rhcloud.com/a403231381/eighteenthirty&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://imgur.com/J3OS1O0.png" width="100%" /&gt;
+程式說明:
+&lt;img src="http://imgur.com/tHWQzsl.png" width="100%" /&gt;
+二.2D齒輪&lt;/p&gt;
+&lt;p&gt;http://cdw17-40323138.rhcloud.com/a40323138/gears&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://imgur.com/BtKA7wl.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;程式說明:&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://imgur.com/DAxXWfU.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;三.onshpae 3D齒輪組&lt;/p&gt;
 &lt;p&gt;onshpae 2 個 3D製圖同齒齒輪 :&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/37e915cf4aee035da1cf5ddb/w/cb62ad9df02ae7feca2bcd7c/e/fae938aa85639c88794c46c0"&gt;https://cad.onshape.com/documents/37e915cf4aee035da1cf5ddb/w/cb62ad9df02ae7feca2bcd7c/e/fae938aa85639c88794c46c0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;https://cad.onshape.com/documents/37e915cf4aee035da1cf5ddb/w/cb62ad9df02ae7feca2bcd7c/e/fae938aa85639c88794c46c0&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://imgur.com/OIQwhb1.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;onshpae 4 個 3D製圖齒輪 :&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/37e915cf4aee035da1cf5ddb/w/cb62ad9df02ae7feca2bcd7c/e/fae938aa85639c88794c46c0"&gt;https://cad.onshape.com/documents/37e915cf4aee035da1cf5ddb/w/cb62ad9df02ae7feca2bcd7c/e/fae938aa85639c88794c46c0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;https://cad.onshape.com/documents/37e915cf4aee035da1cf5ddb/w/cb62ad9df02ae7feca2bcd7c/e/fae938aa85639c88794c46c0&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://imgur.com/BT6HoaL.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;說明: 圖片說明&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/WPieJzH.png" width="100%" /&gt;
+&lt;p&gt;說明:
+&lt;img src="http://imgur.com/WPieJzH.png" width="100%" /&gt;
 &lt;img src="http://imgur.com/JNYd9Gg.png" width="100%" /&gt;
 &lt;img src="http://imgur.com/GNry89o.png" width="100%" /&gt;
 &lt;img src="http://imgur.com/fRcnB90.png" width="100%" /&gt;
@@ -192,15 +34,7 @@ spur(cx, cy, m, n1, pa, 0)   x,y,模數,齒輪,壓力角,偏轉轉角 &lt;/p&gt;
 &lt;img src="http://imgur.com/016bU4j.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;心得:
 這次期末也做2D,3D,齒輪,老師2D部分老師都有給基本的架構,需要花時間去研究它的程式,寫程式去改時存檔,並在LOCALHOST顯示藍圖,常常顯示不出來,程式一直有錯次,並且去應用延伸,花了不少時間,但也學到了很多齒輪有關的事情,也複習了之前的機械原理,也學了很多齒輪的東西,了解很多齒輪的知識,3D ONHAPE 也有要花時間去研究學習,嚙合時比較麻煩,要去算他的偏轉角,在做偏轉角算過了以後,有時還是有些誤差,還要去微調蠻麻煩的,最後的約束條件,轉動時上個齒輪比較完成了&lt;/p&gt;
-&lt;p&gt;雖然一開始期中前常常發生錯誤,但也因為這樣才更努力的去研究不讓錯誤發生,也幫班上協處理過很多錯誤,也教了很多人,期末累死了!!!!!!&lt;/p&gt;
-&lt;p&gt;自評:85&lt;/p&gt;</summary><category term="40323138"></category><category term="cdw17"></category></entry><entry><title>40323138 cdw14 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323138-cdw14-bao-gao.html" rel="alternate"></link><updated>2016-06-25T15:36:20+08:00</updated><author><name>40323138</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-25:static/blog/40323138-cdw14-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
-
-
-&lt;p&gt;任務說明:&lt;/p&gt;
-&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323138"></category><category term="cdw14"></category></entry><entry><title>40323138 cdw12 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323138-cdw12-bao-gao.html" rel="alternate"></link><updated>2016-06-25T15:36:20+08:00</updated><author><name>40323138</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-25:static/blog/40323138-cdw12-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw12 協同專案&lt;/p&gt;
+&lt;p&gt;自評:75&lt;/p&gt;</summary><category term="40323138"></category><category term="cdw17"></category></entry><entry><title>40323138 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323138-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-14T18:53:49+08:00</updated><author><name>40323138</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-14:static/blog/40323138-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
 
 
 &lt;p&gt;期中報告內容:
@@ -245,14 +79,7 @@ Y軸不分跟別改為60,120,180
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323138"></category><category term="cdw12"></category></entry><entry><title>40323138 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323138-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-25T15:36:20+08:00</updated><author><name>40323138</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-25:static/blog/40323138-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
-
-
-&lt;p&gt;任務說明:&lt;/p&gt;
-&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323138"></category><category term="cdw13"></category></entry><entry><title>40323138 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323138-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-25T15:36:20+08:00</updated><author><name>40323138</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-25:static/blog/40323138-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323138"></category><category term="cdw11"></category></entry><entry><title>40323138 cdw12 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323138-cdw12-bao-gao.html" rel="alternate"></link><updated>2016-06-14T18:53:49+08:00</updated><author><name>40323138</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-14:static/blog/40323138-cdw12-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw12 協同專案&lt;/p&gt;
 
 
 &lt;p&gt;期中報告內容:
@@ -297,4 +124,18 @@ Y軸不分跟別改為60,120,180
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323138"></category><category term="cdw11"></category></entry></feed>
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323138"></category><category term="cdw12"></category></entry><entry><title>40323138 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323138-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-14T18:53:49+08:00</updated><author><name>40323138</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-14:static/blog/40323138-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;任務說明:&lt;/p&gt;
+&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323138"></category><category term="cdw13"></category></entry><entry><title>40323138 cdw14 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323138-cdw14-bao-gao.html" rel="alternate"></link><updated>2016-06-14T18:53:49+08:00</updated><author><name>40323138</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-14:static/blog/40323138-cdw14-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;任務說明:&lt;/p&gt;
+&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323138"></category><category term="cdw14"></category></entry></feed>
